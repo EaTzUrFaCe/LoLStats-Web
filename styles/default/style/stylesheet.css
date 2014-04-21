@@ -1,0 +1,87 @@
+html, body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a;
+    height: 100%;
+}
+
+div#top-nav {
+    background: #004247;
+    color: white;
+    font-size: 1.25em;
+}
+
+div#top-nav p {
+    float: left;
+    padding: 20px;
+    margin: 0;
+    cursor: default;
+}
+
+div#top-nav p:hover {
+    background: #306269;
+}
+
+div#top-nav2 {
+    padding: 20px 20px 0 20px;
+    background: black;
+}
+
+div#bar2 img {
+    width: 70px;
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+
+div#top-nav2 div#regionbar {
+    background: #777777;
+    font-size: 1.25em;
+}
+
+div#top-nav2 div#regionbar div#region {
+    background: #537020;
+    width: 80px;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+div#top-nav2 div#regionbar p {
+    float: left;
+    padding: 10px 10px 0 10px;
+}
+
+div#bar2 {
+    float: left;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background: black;
+    width: 100%;
+}
+
+div#bar2 p {
+    margin: 0 20px 0 0;
+    float: left;
+    color: grey;
+
+}
+
+div#bar2 h2 {
+    font-size: 1.75em;
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+div#bar2 p:hover {
+    color: white;
+}
+
+div#bar2 p:active, div#bar2 p.active {
+    text-decoration: underline;
+    color: white;
+}

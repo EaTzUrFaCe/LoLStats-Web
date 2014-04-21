@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LoL Summoner Lookup</title>
+
+    <link href="/style.php?id=bootstrap" rel="stylesheet">
+    <link href="/style.php?id=stylesheet" rel="stylesheet">
+    <link href="/style.php?id=select2" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id='top-nav' class='clearfix'>
+    <p>HOME</p>
+
+    <p>SUMMONER LOOKUP</p>
+
+    <p>CURRENT GAMES</p>
+
+    <p>YOUR PROFILE</p>
+</div>
+<div id='top-nav2' class='clearfix'>
+    <div id='regionbar' class='clearfix'>
+        <div id='region'>
+            {{ summoner_region }}
+        </div>
+        <p>
+            {{ summoner_name }}
+        </p>
+    </div>
+</div>
+<div id='bar2' class='clearfix'>
+    <img class='img-responsive img-rounded' src='/icon.php?id={{ summoner_icon }}'>
+
+    <h2>{{ summoner_name }}</h2>
+
+    <p class="active">overview</p>
+
+    <p>history</p>
+
+    <p>leagues</p>
+
+    <p>stats</p>
+
+    <p>teams</p>
+
+    <p>runes</p>
+
+    <p>masteries</p>
+</div>
+<div class='col-xz-12'>
+
+</div>
+<script src="/js/vendor/bootstrap.min.js"></script>
+<script src="/js/vendor/jquery-1.10.1.min.js"></script>
+<script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="/js/vendor/holder.js"></script>
+<script src="/js/vendor/select2.js"></script>
+</body>
+</html>
